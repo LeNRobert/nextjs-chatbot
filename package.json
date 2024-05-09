@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "@mistralai/mistralai": "^0.2.0"
+  }
+}
