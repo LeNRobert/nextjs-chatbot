@@ -1,0 +1,36 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/nextjs-chatbot-app/node_modules
+/nextjs-chatbot-app/.pnp
+nextjs-chatbot-app/.pnp.js
+nextjs-chatbot-app/.yarn/install-state.gz
+
+# testing
+nextjs-chatbot-app/coverage
+
+# next.js
+nextjs-chatbot-app/.next/
+nextjs-chatbot-app/out/
+
+# production
+nextjs-chatbot-app/build
+
+# misc
+nextjs-chatbot-app/.DS_Store
+nextjs-chatbot-app/*.pem
+
+# debug
+nextjs-chatbot-app/npm-debug.log*
+nextjs-chatbot-app/yarn-debug.log*
+nextjs-chatbot-app/yarn-error.log*
+
+# local env files
+nextjs-chatbot-app/.env*.local
+
+# vercel
+nextjs-chatbot-app/.vercel
+
+# typescript
+nextjs-chatbot-app/*.tsbuildinfo
+nextjs-chatbot-app/next-env.d.ts
